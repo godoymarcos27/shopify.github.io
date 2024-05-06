@@ -1,0 +1,171 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    padding: 30px;
+    margin-top: -35px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.384);
+    text-align: center;
+    width:21.7rem;
+    position: relative;
+    left: 3rem;
+    
+ 
+}
+.form{
+  display: flex;
+  justify-content: start;
+ flex-direction: column;
+  gap: 15px;
+}
+.text{
+ font-weight: bold;
+ margin-bottom: 25px;
+}
+#username, #password{
+  width:20.3rem;
+  height:1.6rem;
+ 
+
+}
+.vinculo {
+width: 15% !important;
+height:  15% !important;
+margin-left: 1rem;
+margin-right: 1rem;
+
+
+
+}
+.portada{
+  margin-top: 20rem !important;
+  
+}
+
+h2{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+}
+.SHOPIFY{
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #1877f2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 3rem;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #145dbf;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.links a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* REGISTRO EXITOSO */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #4CAF50; /* Color verde para indicar éxito */
+}
+
+p {
+  font-size: 1.1em;
+  color: #333;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.logos{
+  margin: 5rem;
+}
+.logos img{
+ width: 3rem;
+ height: 3rem;
+ border-radius: 10px;
+}
+
